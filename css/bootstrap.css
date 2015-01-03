@@ -6116,6 +6116,16 @@ button.close {
   display: none !important;
   visibility: hidden !important;
 }
+
+.myfooter {
+  width:50%;
+  height:25px;
+  background-color:#FFFFFF;
+  color:#252525;
+  position:fixed;
+  bottom:0px;
+}
+
 .affix {
   position: fixed;
 }
