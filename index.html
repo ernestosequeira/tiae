@@ -15,7 +15,7 @@
   	<link rel="stylesheet" href="css/bootstrap-submenu.css">
 </head>
 
-<body>
+<body onLoad="cargar('#div_all','content/home/home.html');">
 
 	<div class="container">
 		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -28,7 +28,7 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="#">Home</a>
+    <a class="navbar-brand" href="Javascript: cargar('#div_all','content/home/home.html');">Home</a>
   </div>
  
   <!-- Collect the nav links, forms, and other content for toggling -->
@@ -38,7 +38,7 @@
       <li class="dropdown">
              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Presentación <span class="caret"></span></a>
                <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Objetivos</a></li>
+                <li><a href="Javascript: cargar('#div_all','content/objetivos/objetivos.html');">Objetivos</a></li>
                 <li><a href="#">Descripción</a></li>
                 <li class="divider"></li>
                 <li><a href="#">Conocimientos previos</a></li>
@@ -133,21 +133,23 @@
 </header>
 
 	<div class="container">
-		<h1>Bienvenidos</h1>
-		<img src="img/article.jpeg">
-	<!-- <object type="text/html" data="audio/audio.htm" width="400" height="400"> -->
+		<div id="div_all"></div>
 	</div>
-	<br><br><br><br><br>
 
 <!-- FOOTER -->
 <footer class="footer">
 	<div class="container">
-		<p class="myfooter">Ernesto David Sequeira - Facultad de Informática - UNLP</p>
+		<p class="myfooter">Power by Ernesto David Sequeira - Facultad de Informática - UNLP</p>
 	</div>
 </footer>
 
-
-  	<script src="js/jquery.js" defer></script>
-  	<script src="js/bootstrap.min.js" defer></script>
+  	<script src="js/jquery.js"></script>
+  	<script src="js/bootstrap.min.js"></script>
+  	<script>
+  		function cargar(div, desde){
+        	$('#div_all').empty();
+        	$(div).load(desde);
+		}
+  	</script>
 </body>
 </html>
