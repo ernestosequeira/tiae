@@ -58,14 +58,14 @@
               <ul class="dropdown-menu">
                   <li class="dropdown-submenu"> <a href="#">Tema 1</a>
                       <ul class="dropdown-menu">
-                          <li><a href="#">Ejercicio 1</a></li>
-                          <li><a href="#">Ejercicio 2</a></li>
+                          <li><a href="Javascript: cargar('#div_all','content/actividades/modulo1/tema1/ejercicio1.html');">Ejercicio 1</a></li>
+                          <li><a href="Javascript: cargar('#div_all','content/actividades/modulo1/tema1/ejercicio2.html');">Ejercicio 2</a></li>
                       </ul>
                   </li>
                   <li class="dropdown-submenu"> <a href="#">Tema 2</a>
                       <ul class="dropdown-menu">
-                          <li><a href="#">Ejercicio 1</a></li>
-                          <li><a href="#">Ejercicio 2</a></li>
+                          <li><a href="Javascript: cargar('#div_all','content/actividades/modulo1/tema2/ejercicio1.html');">Ejercicio 1</a></li>
+                          <li><a href="Javascript: cargar('#div_all','content/actividades/modulo1/tema2/ejercicio2.html');">Ejercicio 2</a></li>
                       </ul>
                   </li>
               </ul>
@@ -74,14 +74,14 @@
               <ul class="dropdown-menu">
                    <li class="dropdown-submenu"> <a href="#">Tema 1</a>
                       <ul class="dropdown-menu">
-                          <li><a href="#">Ejercicio 1</a></li>
-                          <li><a href="#">Ejercicio 2</a></li>
+                          <li><a href="Javascript: cargar('#div_all','content/actividades/modulo2/tema1/ejercicio1.html');">Ejercicio 1</a></li>
+                          <li><a href="Javascript: cargar('#div_all','content/actividades/modulo2/tema1/ejercicio2.html');">Ejercicio 2</a></li>
                       </ul>
                   </li>
                   <li class="dropdown-submenu"> <a href="#">Tema 2</a>
                       <ul class="dropdown-menu">
-                          <li><a href="#">Ejercicio 1</a></li>
-                          <li><a href="#">Ejercicio 2</a></li>
+                          <li><a href="Javascript: cargar('#div_all','content/actividades/modulo2/tema2/ejercicio1.html');">Ejercicio 1</a></li>
+                          <li><a href="Javascript: cargar('#div_all','content/actividades/modulo2/tema2/ejercicio2.html');">Ejercicio 2</a></li>
                       </ul>
                   </li>
               </ul>
@@ -145,11 +145,6 @@
 
   	<script src="js/jquery.js"></script>
   	<script src="js/bootstrap.min.js"></script>
-  	<script>
-  		function cargar(div, desde){
-        	$('#div_all').empty();
-        	$(div).load(desde);
-		}
-  	</script>
+  	<script src="js/div_all.js"></script>
 </body>
 </html>
