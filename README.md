@@ -1,3 +1,4 @@
+
 # Template Web Site Responsive (Educational)
 
 Esta plantilla fue diseñado en HTML5, utilizando el Framework Twitter Bootstrap, para que las páginas web puedan ser visualizadas perfectamente en todo tipo de dispositivos. 
@@ -10,18 +11,21 @@ La ídea surgió a partir de un trabajo práctico de la Maestría en Tecnología
 1.0.0
 
 ### Tech
-* [HTML5] -
-* [Geany Editor] -
-* [Twitter Bootstrap] - 
-* [jQuery] -
-* [JavaScript] -
+* [HTML5]
+* [Geany Editor]
+* [Twitter Bootstrap]
+* [jQuery]
+* [JavaScript]
 
 ### Installation
 
 Descarga en :
-
 https://github.com/ernestosequeira/tiae/archive/gh-pages.zip
 
+or
+```sh
+$ git clone git@github.com:ernestosequeira/tiae.git
+```
 ### Author
 Ernesto David Sequeira
 
@@ -33,5 +37,3 @@ Free Software
 [Twitter Bootstrap]:http://twitter.github.com/bootstrap/
 [jQuery]:http://jquery.com/
 [JavaScript]:http://www.w3schools.com/js/
-
-
