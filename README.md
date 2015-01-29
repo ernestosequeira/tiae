@@ -35,8 +35,6 @@ Ernesto David Sequeira
 ### License
 Free Software
 
-[1]: https://github.com/Lokaltog/vim-powerline
-
 [HTML5]:http://www.w3schools.com/html/html5_intro.asp
 [Geany Editor]:http://www.geany.org
 [Twitter Bootstrap]:http://twitter.github.com/bootstrap/
