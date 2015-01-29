@@ -7,7 +7,7 @@ Fue pensado para ser Single Page Application (Aplicación de una sola Página), 
 
 La ídea surgió a partir de un trabajo práctico de la Maestría en Tecnología Informática Aplicada en Educación de la UNLP.
 
-### Screenshot [1]
+### Screenshot
 ![image](https://raw.githubusercontent.com/ernestosequeira/tiae/gh-pages/img/screeshot/captura.png)
 
 ### Version
