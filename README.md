@@ -7,6 +7,9 @@ Fue pensado para ser Single Page Application (Aplicación de una sola Página), 
 
 La ídea surgió a partir de un trabajo práctico de la Maestría en Tecnología Informática Aplicada en Educación de la UNLP.
 
+### Screenshot [1]
+![image](https://raw.githubusercontent.com/ernestosequeira/tiae/gh-pages/img/screeshot/captura.png)
+
 ### Version
 1.0.0
 
@@ -31,6 +34,8 @@ Ernesto David Sequeira
 
 ### License
 Free Software
+
+[1]: https://github.com/Lokaltog/vim-powerline
 
 [HTML5]:http://www.w3schools.com/html/html5_intro.asp
 [Geany Editor]:http://www.geany.org
