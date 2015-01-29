@@ -6124,6 +6124,7 @@ button.close {
   color:#252525;
   position:fixed;
   bottom:0px;
+  font-size: x-small; 
   text-align:center;
 }
 
